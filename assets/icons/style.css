@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?p46k58');
+  src:  url('fonts/icomoon.eot?p46k58#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?p46k58') format('truetype'),
+    url('fonts/icomoon.woff?p46k58') format('woff'),
+    url('fonts/icomoon.svg?p46k58#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fua:before {
+  content: "\e917";
+}
+.icon-success:before {
+  content: "\e916";
+}
+.icon-ambulancia:before {
+  content: "\e900";
+}
+.icon-arrow:before {
+  content: "\e901";
+}
+.icon-atencion_hospitalizacion:before {
+  content: "\e902";
+}
+.icon-atencion_medica_general:before {
+  content: "\e903";
+}
+.icon-atencion_prenatal:before {
+  content: "\e904";
+}
+.icon-cirugia:before {
+  content: "\e905";
+}
+.icon-ciudadanos:before {
+  content: "\e906";
+}
+.icon-control_crecimiento:before {
+  content: "\e907";
+}
+.icon-diente:before {
+  content: "\e908";
+}
+.icon-discapacitado:before {
+  content: "\e909";
+}
+.icon-firma:before {
+  content: "\e90a";
+}
+.icon-folder:before {
+  content: "\e90b";
+}
+.icon-hospital:before {
+  content: "\e90c";
+}
+.icon-inmunizaciones:before {
+  content: "\e90d";
+}
+.icon-obstetricia:before {
+  content: "\e90e";
+}
+.icon-paciente:before {
+  content: "\e90f";
+}
+.icon-soporte:before {
+  content: "\e910";
+}
+.icon-tbc:before {
+  content: "\e911";
+}
+.icon-triaje:before {
+  content: "\e912";
+}
+.icon-uci:before {
+  content: "\e913";
+}
+.icon-ventanilla_unica:before {
+  content: "\e914";
+}
+.icon-vih:before {
+  content: "\e915";
+}

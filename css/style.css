@@ -1,0 +1,425 @@
+:root {
+    --color-eqhali: #13779d;
+    --light-gray: #f2f2f2;
+    --dark-gray: #222222;
+    --gray-text: #777777;
+}
+button:focus {outline:0 !important;}
+body{
+  position: relative;
+}
+/*----------------------------- PHONE VERSION -----------------------------*/
+/*------------- GENERAL -------------*/
+.centrado-porcentual {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.titleSection{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+.grayText{
+  color: var(--gray-text);
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.white{
+  color: #fff !important;
+}
+#numbers{
+  padding: 5rem 0;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--color-eqhali) !important;
+  font-weight: 600 !important;
+}
+/*------------- slider -------------*/
+#slider {
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+}
+.slider01{
+  background-image: url(../assets/img/hospital_slider_01.jpg);
+}
+.slider02{
+  background-image: url(../assets/img/hospital_slider_02.jpg);
+}
+.slider03{
+  background-image: url(../assets/img/hospital_slider_03.jpg);
+}
+.titleSlider{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.subtitleSlider{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  text-align: center;
+}
+.buttonRed{
+  background-color: var(--color-eqhali);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 4rem;
+  font-family: var(--hind);
+  border-radius: 5rem;
+  width: 220px;
+  text-align: center;
+  cursor: pointer;
+}
+.buttonRed:hover{
+  color: #fff;
+}
+.buttonRed:focus{
+  box-shadow: none;
+}
+/*-------------------- About --------------------*/
+#about, #component, #integracion, #normativa{
+  padding: 5rem 0;
+}
+#about>div{
+  width: 90%;
+}
+/*-------------------- Benefit --------------------*/
+.benefitImg{
+  background-image: url(../assets/img/image_01.jpg);
+  background-size: cover;
+  margin: 0;
+}
+.benefitColor{
+  background-color: var(--color-eqhali);
+  padding: 4rem 2rem;
+}
+/*-------------------- Components --------------------*/
+#component>div:nth-child(1){
+  margin: 0 0 5rem 0;
+}
+#component>div:nth-child(1)>div{
+  margin: 5rem 0 0 0;
+}
+#component>div:nth-child(1)>div a{
+  cursor: pointer;
+}
+#component>div:nth-child(2)>div:nth-child(1)>.container>div:nth-child(1),
+#component>div:nth-child(2)>div:nth-child(2)>.container>div:nth-child(1){
+  margin-bottom: 3rem;
+}
+.shadow{
+  background: var(--gray-dark);
+  width: 92.3%;
+  height: 27rem;
+  position: absolute;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+.boxContent{
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px #58585878;
+  padding: 2rem;
+  height: 27rem;
+  margin-bottom: 2rem;
+}
+.mt8{
+  margin-top: 8px;
+}
+.buttonComponent{
+  background-color: var(--color-eqhali);
+  border: none;
+  color: #fff !important;
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 2rem;
+}
+.cardWhite{
+  display: block;
+}
+.cardHover{
+  display: none;
+  color: #fff !important;
+}
+.titleCard{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.textCard{
+  font-size: 0.9rem
+}
+.iconCard{
+  font-size: 6rem;
+}
+.boxContent:hover{
+  background-color: var(--color-eqhali);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.boxContent:hover > .cardWhite{
+  display: none;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.boxContent:hover > .cardHover{
+  display: block;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.displayNone{
+  display: none;
+}
+.displayBlock{
+  display: block;
+}
+/*-------------------- Integracion --------------------*/
+#integracion>div:nth-child(2)>div:nth-child(1){
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+#accordion .card{
+  margin: 5px;
+  border: none;
+}
+#accordion .btn{
+  padding: 0
+}
+#accordion .btn-link{
+  color: var(--dark-gray);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  text-decoration: none;
+}
+#accordion .btn-link>.row div:nth-child(1){
+  text-align: left;
+}
+#accordion .btn-link>.row div:nth-child(2){
+  text-align: right;
+}
+[data-toggle="collapse"] .fa:before {  
+  content: "\f106";
+}
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f107";
+}
+/*-------------------- Numbers --------------------*/
+#numbers>.container>.row div p:nth-child(1){
+  font-size: 4rem;
+  margin: 0;
+}
+#numbers>.container>.row div p:nth-child(2){
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: 700;
+}
+#numbers>.container>.row div p:nth-child(3){
+  margin: 0
+}
+#numbers .container .row>div:nth-child(1),
+#numbers .container .row>div:nth-child(2){
+  margin: 0 0 4rem 0;
+}
+/*-------------------- Normativa --------------------*/
+#content{
+  padding-top:0px;
+  color:#444;
+  margin:0 auto;
+  max-height: 270px;
+  overflow: hidden;
+  -webkit-transition:max-height 0.7s;
+  -moz- transition:max-height 0.7s;
+  transition: max-height 0.7s;
+}
+#content.open{
+  max-height: 3000px;
+  -webkit-transition:max-height 0.7s;
+  -moz- transition:max-height 0.7s;
+  transition: max-height 0.7s;
+}
+#showMore{
+  background: var(--color-eqhali);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  padding: 10px 15px;
+  margin-top: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 2rem;
+}
+/*-------------------- Contacto --------------------*/
+#contacto form label{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.buttonContacto {
+  background-color: var(--color-eqhali);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  font-family: var(--hind);
+  border-radius: 5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+#contacto .row > div:nth-child(1){
+  padding: 5rem 0;
+}
+#contacto .row > div:nth-child(1) > div:nth-child(2){
+  padding: 0 2rem;
+}
+#contacto .row > div:nth-child(2) > iframe {
+  height: 500px;
+}
+/*-------------------- footer --------------------*/
+footer{
+  background-color: var(--dark-gray);
+  padding: 2rem 0 1rem 0;
+  color: #fff;
+}
+.titlefooter{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+footer .container>.row>div{
+  margin-bottom: 2rem;
+}
+footer>.container>.row>div:nth-child(1)>div{
+  margin-bottom: 1.5rem;
+}
+footer>.container>.row>div:nth-child(1),
+footer>.container>.row>div:nth-child(2){
+  display: none;
+}
+.lineSeparator{
+  margin-top: 0;
+}
+/*----------------------------- TABLET VERSION -----------------------------*/
+@media (min-width: 768px) and (max-width: 992px){
+  #slider div:nth-child(1) {
+    width: 70%;
+  }
+  footer{
+    padding: 5rem 0 0 0;
+  }
+  footer>.container>.row>div:nth-child(1),
+  footer>.container>.row>div:nth-child(2){
+    display: block;
+  }
+  footer .container>.row>div ul{
+    padding: 0;
+  }
+  footer .container>.row>div ul>li{
+    list-style: none;
+  }
+  footer .container>.row div>ul>li>a{
+    color: #fff;
+  }
+  footer .container>.row div>ul>li>a:hover{
+    text-decoration: none;
+  }   
+}
+/*----------------------------- DESKTOP VERSION -----------------------------*/
+@media (min-width: 992px){
+  .titleSlider{
+  font-size: 2rem;
+  }
+  #about, #component, #integracion, #normativa{
+    padding: 10rem 0;
+  }
+  #about>div{
+    width: 50%;
+  }
+  #component>div:nth-child(1){
+    width: 50%;
+  }
+  #component>div:nth-child(2)>div:nth-child(1)>.container>div:nth-child(1),
+  #component>div:nth-child(2)>div:nth-child(2)>.container>div:nth-child(1){
+    width: 50%;
+  }
+  #component>div:nth-child(1){
+    margin: 0 0 2rem 0;
+  }
+  #integracion>div:nth-child(1){
+    width: 50%
+  }
+  #contacto>div:div:nth-child(1){
+    width: 50%
+  }
+  .titleSlider{
+    font-size: 2.5rem;
+  }
+  .benefitColor{
+    padding: 5rem;
+    height: 40rem;
+  }
+  #content.open{
+    max-height: 1100px;
+  }
+  #contacto .row > div:nth-child(1){
+    padding: 5rem 0;
+  }
+  #contacto .row > div:nth-child(1) > div:nth-child(2){
+    padding: 0 5rem;
+  }
+  #contacto .row > div:nth-child(2) > iframe {
+    height: 100%
+  }
+  #numbers .container .row>div:nth-child(1),
+  #numbers .container .row>div:nth-child(2){
+    margin: 0;
+  }
+  footer{
+    padding: 5rem 0 1rem 0;
+  }
+  footer>.container>.row>div:nth-child(1),
+  footer>.container>.row>div:nth-child(2){
+    display: block;
+  }
+  footer .container>.row>div ul{
+    padding: 0;
+  }
+  footer .container>.row>div ul>li{
+    list-style: none;
+  }
+  footer .container>.row div>ul>li>a{
+    color: #fff;
+  }
+  footer .container>.row div>ul>li>a:hover{
+    text-decoration: none;
+  }
+  .lineSeparator{
+    border-top: 1px solid #ffffff21;
+    padding-top: 2rem;
+    margin-top: 2rem;
+  }
+}
