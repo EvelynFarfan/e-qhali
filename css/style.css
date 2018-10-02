@@ -102,6 +102,7 @@ body{
   background-image: url(../assets/img/image_01.jpg);
   background-size: cover;
   margin: 0;
+  background-position-y: -6rem;
 }
 .benefitColor{
   background-color: var(--color-eqhali);
@@ -380,7 +381,7 @@ footer>.container>.row>div:nth-child(2){
   }
   .benefitColor{
     padding: 5rem;
-    height: 40rem;
+    height: 36rem;
   }
   #content.open{
     max-height: 1100px;
